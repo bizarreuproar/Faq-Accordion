@@ -1,0 +1,81 @@
+:root {
+    --clr-gradient-violet: hsl(273, 75%, 66%);
+    --clr-gradient-blue: hsl(240, 73%, 65%);
+    --ff-main: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px; 
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    margin-top: 200x;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    display: flex;
+    margin: 5px;
+}
+
+.heading img{
+    margin-right: 25px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(46, 12, 46);
+    display: flex;
+}
+
+.container h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 450px;
+    text-align: left;
+    margin-bottom: -35px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    min-height: 98vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: local;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container .line{
+    background-color: #ccc;
+    border: none; 
+    height: 1px; 
+    margin: 20px 0;
+    opacity: .4;
+}
+
+button {
+    margin-left: 450px;
+    background-color: white;
+    border: none;
+    margin-top: 8px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 95%;
+}
